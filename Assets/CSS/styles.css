@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px; 
+}
+
+.navbar {
+    position: relative; 
+}
+
+.navbar-brand {
+    text-align: center; 
+    display: block;
+}
+
+.navbar-brand h1 {
+    font-size: 2.5rem; 
+    margin: 0;
+}
+
+.logo {
+    width: 60px; 
+    height: auto; 
+    object-fit: contain;
+    margin-bottom: 10px; 
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.card-header {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.card-body h3 {
+    font-size: 2.5rem; 
+}
+
+.card-body p, .card-body small, .list-group-item {
+    font-size: 2rem;
+}
+
+.investment-img {
+    width: 100px; 
+    height: auto;
+    object-fit: contain; 
+}
+
+footer {
+    font-size: 2rem; 
+}

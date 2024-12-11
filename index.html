@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informal Finanças - Simulador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="/Assets/Imagens/Informal financas.png" alt="Logo Informal Finanças" class="logo me-3">
+                <h1 class="text-white mb-0">Informal Finanças</h1>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="menuDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-list" style="font-size: 2.5rem;"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="menuDropdown">
+                    <li><a class="dropdown-item fs-4" href="#saldo-atual">Saldo Atual</a></li>
+                    <li><a class="dropdown-item fs-4" href="#total-investido">Total Investido</a></li>
+                    <li><a class="dropdown-item fs-4" href="#gastos-mes">Gastos do Mês</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center mt-4">
+        <h2 class="fw-bold display-4">Simulador de Patrimônio</h2>
+        <p class="fs-4 text-muted">Gerencie seus lucros e gastos com eficiência e simplicidade!</p>
+    </div>
+    <div class="container my-5">
+        <div id="saldo-atual" class="card mb-4 border-primary">
+            <div class="card-header bg-primary text-white text-center fs-3">Saldo Atual</div>
+            <div class="card-body text-center">
+                <h3 class="fs-2">R$ 6.112,81</h3>
+                <p class="fs-4 text-muted">Atualizado em: 01/12/2024</p>
+            </div>
+        </div>
+        <div id="total-investido" class="card mb-4 border-primary">
+            <div class="card-header bg-primary text-white text-center fs-3">Total Investido</div>
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <div>
+                    <h3 class="fs-2">R$ 251,26 <i class="bi bi-arrow-up text-success fs-2"></i></h3>
+                    <p class="fs-4 text-success">19,26% do patrimônio</p>
+                </div>
+                <img src="/Assets/Imagens/Investimento .png" alt="Investimento" class="investment-img">
+            </div>
+        </div>
+        <div id="gastos-mes" class="card mb-4 border-primary">
+            <div class="card-header bg-primary text-white text-center fs-3">Gastos do Mês</div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between fs-3">
+                        Mercado <span>R$ 1.500,21</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between fs-3">
+                        Conta de Água <span>R$ 98,51</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between fs-3">
+                        Conta de Luz <span>R$ 265,10</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between fs-3">
+                        Aluguel <span>R$ 1.850,81</span>
+                    </li>
+                </ul>
+                <button class="btn btn-primary w-100 mt-3 fs-3">Adicionar item à lista</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="fs-3">&copy; 2024 Informal Finanças. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
